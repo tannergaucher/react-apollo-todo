@@ -1,3 +1,3 @@
-const index = () => <div>welcome to fullstack React GraphQL boilerplate</div>
+const index = () => <div>Hello Apollo Todo App index.js</div>
 
 export default index

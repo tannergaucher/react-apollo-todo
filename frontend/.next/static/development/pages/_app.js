@@ -24,10 +24,10 @@ var Header = function Header() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4
+      lineNumber: 3
     },
     __self: this
-  }, "hello header test teset "));
+  }, "Hello Apollo Todo App"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -76,10 +76,10 @@ var Meta = function Meta() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 7
     },
     __self: this
-  }, "Hello Fulltack React GraphQL"));
+  }, "Hello Apollo Todo"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Meta);

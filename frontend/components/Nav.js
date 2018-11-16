@@ -1,3 +1,3 @@
-const Nav = () => <p>hello nav test teset </p>
+const Nav = () => <p>hello nav</p>
 
 export default Nav

@@ -1,7 +1,6 @@
 const Header = () => (
   <div>
-    {/* do do od  */}
-    <p>hello header test teset </p>
+    <p>Hello Apollo Todo App</p>
   </div>
 )
 
