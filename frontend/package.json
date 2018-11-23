@@ -1,5 +1,5 @@
 {
-  "name": "react-graphql-boilerplate",
+  "name": "react-apollo-todo-frontend",
   "version": "1.0.0",
   "description": "full stack react and graphql boilerplate, using next.js apollo, prisma db, yoga server, and styled components",
   "main": "index.js",
@@ -26,5 +26,8 @@
     "rebass": "^2.3.4",
     "styled-components": "^4.1.1",
     "styled-system": "^3.1.11"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.8.0"
   }
 }

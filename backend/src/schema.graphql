@@ -5,10 +5,23 @@ type User {
   name: String!
 }
 
+type Todo {
+  id: ID!
+  task: String
+}
+
 type Mutation {
-  hi: String
+  createTodo(task: String): Todo!
+  updateTodo(id: ID!, task: String): Todo!
+  deleteTodo(id: ID!): Todo
 }
 
 type Query {
-  hi: String
+  todo(where: TodoWhereUniqueInput!): Todo
+  todoes(
+    where: TodoWhereInput
+    orderBy: TodoOrderByInput
+    skip: Int
+    first: Int
+  ): [Todo]!
 }
